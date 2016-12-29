@@ -50,11 +50,6 @@ driver.o: game.h uiInteract.h driver.cpp
 rifle.o: rifle.h point.h uiDraw.h rifle.cpp
 	g++ -c rifle.cpp
 
-#######################################################################
-# ADD YOUR ADDITIONAL RULES HERE!
-#
-# Then, don't forget to add them to the dependecy list for a.out above.
-#######################################################################
 velocity.o: velocity.h velocity.cpp
 	g++ -c velocity.cpp
 
